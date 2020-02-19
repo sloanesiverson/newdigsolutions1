@@ -13,6 +13,8 @@
     color: grey;
 }
 
+
+
 .navbar-brand>img {
 
   width: 150px; 
@@ -31,6 +33,34 @@
 @media screen and (max-width:768px) {
  display:flex;}
 
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#flex-content-container {
+  flex: 1;
+}
+#footer {
+  position: relative;
+  width: 100%;
+  min-height: 15px;
+  background-color: #1A1A1A;
+  color: white;
+    font-family: "Helvetica Neue", Helvetica;
+    padding: 10px 0px;
+    margin-top: 30px;
+}
+
+#footer a {
+  color: white;
+  font-weight: 100;
+}
 
 .form-style-8{
   font-family: 'Open Sans Condensed', arial, sans;
@@ -119,15 +149,17 @@
 }
 
 .btn {
-  background-color: #4CAF50; /* Green */
+  background-color: #e8e8ea;
   border: none;
-  color: white;
+  color: #1A1A1A;
   padding: 15px 32px;
   text-align: center;
-  text-decoration: none;
+  -webkit-text-decoration: bold;
+  text-decoration: bold;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
    display: flex;
   align-items: center;
   justify-content: center;
 }
+
