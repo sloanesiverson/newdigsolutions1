@@ -28,7 +28,8 @@
   letter-spacing: 0.8px;
 
 }
-
+@media screen and (max-width:768px) {
+ display:flex;}
 
 
 .form-style-8{
@@ -76,7 +77,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   outline: none;
-  display: block;
+  display: flex;
   width: 100%;
   padding: 7px;
   border: none;
@@ -113,6 +114,7 @@
 }
 
 .form-all {
- 
+ display: flex;
   display: inline-block;
 }
+
